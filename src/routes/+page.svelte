@@ -3,6 +3,12 @@
 	let done = [];
 </script>
 
+<svelte:head>
+	<title>Olin Purity Test</title>
+	<meta property="og:title" content="olin purity test" />
+	<meta property="og:description" content="yeah" />
+</svelte:head>
+
 <h1>olin purity test</h1>
 <span>score is automatically calculated at the bottom</span>
 <br /><br />
