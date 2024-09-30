@@ -23,11 +23,6 @@
 	<title>Olin Purity Test</title>
 	<meta property="og:title" content="olin purity test" />
 	<meta property="og:description" content="yeah" />
-	<link
-		rel="icon"
-		type="image/x-icon"
-		href="https://instructure-uploads-pdx.s3.us-west-2.amazonaws.com/account_172060000000000001/attachments/504/favicon.ico"
-	/>
 </svelte:head>
 
 <div style="display: flex;flex-direction: column;gap: 2em;">
@@ -44,6 +39,8 @@
 				<br />
 			</label>
 		{/each}
+
+		<input type="text" name="name" placeholder="Name(optional)" />
 
 		<button>submit</button><br />
 		<sub style="font-size:xx-small">
