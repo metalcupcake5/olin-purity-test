@@ -7,6 +7,11 @@
 	<title>Olin Purity Test</title>
 	<meta property="og:title" content="olin purity test" />
 	<meta property="og:description" content="yeah" />
+	<link
+		rel="icon"
+		type="image/x-icon"
+		href="https://instructure-uploads-pdx.s3.us-west-2.amazonaws.com/account_172060000000000001/attachments/504/favicon.ico"
+	/>
 </svelte:head>
 
 <h1>olin purity test</h1>
