@@ -3,15 +3,22 @@
 	let done = [];
 </script>
 
-<form>
-	{#each questions as question}
-		<label>
-			<input type="checkbox" name="flavours" value={question} bind:group={done} />
+<h1>olin purity test</h1>
+<span>score is automatically calculated at the bottom</span>
+<br /><br />
+{#each questions as question}
+	<label>
+		<input type="checkbox" name="flavours" value={question} bind:group={done} />
+		<span>{question}</span>
+		<br />
+	</label>
+{/each}
 
-			{question}
-			<br />
-		</label>
-	{/each}
-</form>
+<h1>your score: {done.length}</h1>
 
-{done.length}
+<footer>
+	source:
+	<a href="https://github.com/metalcupcake5/olin-purity-test"
+		><i class="fa-brands fa-github"></i> metalcupcake5/olin-purity-test</a
+	>
+</footer>
