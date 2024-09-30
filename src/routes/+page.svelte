@@ -40,7 +40,7 @@
 			</label>
 		{/each}
 
-		<input type="text" name="name" placeholder="Name(optional)" />
+		<!-- <input type="text" name="name" placeholder="Name(optional)" /> -->
 
 		<button>submit</button><br />
 		<sub style="font-size:xx-small">
