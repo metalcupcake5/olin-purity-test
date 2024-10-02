@@ -52,7 +52,7 @@
 	<footer>
 		questions taken from <a href="https://franklyspeakingnews.com/2022/03/the-olin-purity-test/">
 			https://franklyspeakingnews.com/2022/03/the-olin-purity-test/
-		</a>, slightly modified to remove bonus points due to technical reasons ( i am stupid)
+		</a>
 		<br />
 		site source:
 		<a href="https://github.com/metalcupcake5/olin-purity-test">
