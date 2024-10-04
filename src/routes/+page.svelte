@@ -7,8 +7,10 @@
 
 {#if form?.success}
 	<div style="outline: solid 2px;">
-		<h1>your score is {form.score}/{questions.length}</h1>
+		<h1>you are {form.score}% corrupted by olin</h1>
 		<span>
+			your score is {form.score}
+			<br />
 			your score has been logged
 			<br />
 			please do not submit multiple times it will mess up data collection 3:
@@ -27,7 +29,7 @@
 	<div>
 		<h1>olin purity test</h1>
 		<strong>
-			Caution: This is not intended to be a bucket list. Completion of all items on this test will
+			CAUTION: This is not intended to be a bucket list. Completion of all items on this test will
 			likely result in becoming Olin Man.
 		</strong>
 		<br />
