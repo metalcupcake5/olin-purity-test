@@ -6,12 +6,17 @@ export const actions = {
 		const data = await request.formData();
 		const questions = [];
 		for (const e of data.entries()) {
+			if (isNaN(parseInt(e[0]))) continue;
 			questions.push(parseInt(e[0]));
 		}
 
-		await client.db('olin-purity-test').collection('scores').insertOne({
-			questions
-		});
+		await client
+			.db('olin-purity-test')
+			.collection('scores')
+			.insertOne({
+				questions,
+				name: data.get('name') || 'none'
+			});
 
 		return { success: true, score: questions.length };
 	}

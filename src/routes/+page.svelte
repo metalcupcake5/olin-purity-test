@@ -48,6 +48,8 @@
 			it would be cool to look at you guys should get datapilled imagine all the graphs i could make
 		</sub>
 		<br />
+		<input type="text" name="name" placeholder="Name (optional)" />
+		<br />
 		<button>submit</button>
 	</form>
 
