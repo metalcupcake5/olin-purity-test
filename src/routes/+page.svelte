@@ -11,11 +11,7 @@
 		<span>
 			your score has been logged<br />please do not submit multiple times it will mess up data
 			collection 3:
-		</span><br />
-		<sub style="font-size:xx-small">
-			in all honesty it really does not matter (i am not doing anything with the data anyways) but
-			it would be cool to look at you guys should get datapilled imagine all the graphs i could make
-		</sub>
+		</span>
 	</div>
 {/if}
 
@@ -39,14 +35,20 @@
 				<br />
 			</label>
 		{/each}
+		<br />
 
 		<!-- <input type="text" name="name" placeholder="Name(optional)" /> -->
-
-		<button>submit</button><br />
+		<span>
+			submitting this form will log your score, please do not submit multiple times it will mess up
+			data collection 3:
+		</span>
+		<br />
 		<sub style="font-size:xx-small">
-			by submitting this form you agree to give me (the creator) (someone with occasionally (rarely)
-			has at least 1 braincell) 4 gazillion dollar
+			in all honesty it really does not matter (i am not doing anything with the data anyways) but
+			it would be cool to look at you guys should get datapilled imagine all the graphs i could make
 		</sub>
+		<br />
+		<button>submit</button>
 	</form>
 
 	<footer>
